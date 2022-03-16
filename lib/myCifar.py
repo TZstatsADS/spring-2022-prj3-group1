@@ -42,8 +42,8 @@ class myCIFAR10(VisionDataset):
 
         self.train = train  # training set or test set
         
-        n_img = 5000
-        n_noisy = 4000
+        n_img = 50000
+        n_noisy = 40000
         n_clean_noisy = n_img - n_noisy
         imgs = np.empty((n_img,32,32,3))
         for i in range(n_img):
@@ -61,7 +61,7 @@ class myCIFAR10(VisionDataset):
         
         if only_clean:
             self.data = imgs[:n_clean_noisy]
-            self.targets = clean_labels
+            self.targets = clean_labels[:n_clean_noisy]
             self.noisy_targets = noisy_labels[:n_clean_noisy]
         else:
             self.data = imgs
@@ -70,7 +70,7 @@ class myCIFAR10(VisionDataset):
         random.seed(42)
         
         indexes = np.arange(len(self.data))
-        random.shuffle(indexes)
+        #random.shuffle(indexes)
         
         if train:
             self.data = self.data[indexes[:int(train_size*(len(indexes)))]]
