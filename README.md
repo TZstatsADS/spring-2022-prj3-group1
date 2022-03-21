@@ -5,17 +5,19 @@
 
 Term: Spring 2022
 
-+ Team ##
++ Team #1
 + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
+	+ Aakanksha Agaewal
+	+ Lichun He
+	+ Kexin Tang
+	+ Kaimin Wang
+	+ Xinran Wang
+	+ Jiaxin Yu
 
-+ Project summary: In this project, we created ...
++ Project summary: 
+        + For model 1, we first built predicting models including VGG19, ResNet, CNN and Vision Transformer to compare the running time and the validation accuracy. taking the noisy labels as clean ones, the sophisticated models all performed relatively better than the baseline model. ResNet showed that the validation accuracy was 45.76%, although it took 155 mins to run which failed to meet our requirement.The vision transformer model provided 43.86% accuracy with 1 min's running time. As for CNN, the validation accuracy was 43.36% with 12 mins' running time. The model with the best performance is VGG19, which gave us 60.34% accuracy with 13.32 mins' running time.
 	
-**Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
++ Contribution statement: 
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
