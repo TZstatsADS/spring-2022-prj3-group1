@@ -24,7 +24,7 @@ Term: Spring 2022
 	+ For model 2,
 	
 - Contribution statement: 
-	+ All team members contributed to building and testing the model 1. Aakanksha built the VGG19 model. Kexin built the ResNet model. Kaimin built the vision transformer model. Xinran first built the full layer CNN model, and Lichun and Kexin further worked on improving and testing the CNN model.
+	+ All team members contributed to building and testing the model 1. Aakanksha built the MobileNetV2 model. Kexin built the ResNet model. Kaimin built the vision transformer model. Xinran first built the full layer CNN model, and Lichun and Kexin further worked on improving and testing the CNN model.
 	+ Aakanksha developed the weakly supervised data cleaning model, and Xinran (and Jessi?) also worked on developing another model 2 to further get the final choice. All team members contributed to improving and testing the model 2.
 	+ Kaimin initially updated the README, and was later edited by Kexin. 
         
