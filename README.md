@@ -7,7 +7,7 @@ Term: Spring 2022
 
 + Team #1
 + Team members
-	+ Aakanksha Agaewal
+	+ Aakanksha Agarwal
 	+ Lichun He
 	+ Kexin Tang
 	+ Kaimin Wang
