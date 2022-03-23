@@ -28,6 +28,7 @@ Term: Spring 2022
 	+ All team members contributed to building and testing the model 1. Aakanksha built the MobileNetV2 model. Kexin built the ResNet model. Kaimin built the vision transformer model. Xinran first built the full layer CNN model, when Lichun, Kexin and Kaimin further worked on improving and testing the CNN model.
 	+ Aakanksha developed the weakly supervised data cleaning model, and Xinran also worked on developing another VGG16 model to further get the final choice. All team members contributed to improving and testing the model 2.
 	+ Kaimin initially updated the README, and was later edited by Kexin. 
+	+ Presentation for this project was made by Jessie and Aakanksha, with inputs from the entire team.
         
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
