@@ -21,7 +21,8 @@ Term: Spring 2022
 	  As for CNN, the validation accuracy was 43.36% with 12 mins' running time. \
 	  The model with the best performance was MobileNet, which led to 60.34% accuracy with 13.32 mins' running time. \
           Therefore, we chose Mobilenet as our final decision of model 1. 
-	+ For model 2,
+	+ For model 2, we have implemented the proposed model in [this](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hu_Weakly_Supervised_Image_Classification_Through_Noise_Regularization_CVPR_2019_paper.pdf) paper using weakly supervised training through noise regularization. 
+	+ ![Model Structure](https://cdn.zhuanzhi.ai/images/wx/2ba6290f11e0725b5df22267cfc3a68e "Weakly Supervised Model")
 	
 - Contribution statement: 
 	+ All team members contributed to building and testing the model 1. Aakanksha built the MobileNetV2 model. Kexin built the ResNet model. Kaimin built the vision transformer model. Xinran first built the full layer CNN model, when Lichun, Kexin and Kaimin further worked on improving and testing the CNN model.
