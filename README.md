@@ -21,7 +21,7 @@ Term: Spring 2022
 	  As for CNN, the validation accuracy was 43.36% with 12 mins' running time. \
 	  The model with the best performance was MobileNet, which led to 60.34% accuracy with 13.32 mins' running time. \
           Therefore, we chose Mobilenet as our final decision of model 1. 
-	+ For model 2, we have implemented the proposed model in [this](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hu_Weakly_Supervised_Image_Classification_Through_Noise_Regularization_CVPR_2019_paper.pdf) paper using weakly supervised training through noise regularization. 
+	+ For model 2, we have implemented the proposed model in [this](https://openaccess.thecvf.com/content_CVPR_2019/papers/Hu_Weakly_Supervised_Image_Classification_Through_Noise_Regularization_CVPR_2019_paper.pdf) paper using weakly supervised training through noise regularization. The model is consist of one clean net with clean labels and one residual net with noisy label. Both nets are sharing a common feature extractor through a state-of-art CNN classification model. The features will then be fed into both the networks. The residual net will work as a regularization term when training the clean net to assist clean net accuracy utilizing noisy labels.
 	+ ![Model Structure](https://cdn.zhuanzhi.ai/images/wx/2ba6290f11e0725b5df22267cfc3a68e "Weakly Supervised Model")
 	
 - Contribution statement: 
